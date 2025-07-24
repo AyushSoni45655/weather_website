@@ -19,7 +19,7 @@ A sleek and responsive weather application built using **HTML**, **CSS**, and **
 
 ## 🚀 Live Demo
 
-🔗 [View Live on GitHub Pages](#) *(Add your deployed link here)*
+🔗 [View Live on GitHub Pages](#) *(https://ayushsoni45655.github.io/weather_website/)*
 
 ---
 
