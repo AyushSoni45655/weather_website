@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+
+  <title>Weather_Website</title>
+</head>
+<body>
+  <main>
+    <section class="sections">
+      <div class="container">
+                                                                                                                 <!-- SEARCH BOX HERE -->
+
+        <div class="search_box">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" placeholder="Search Your City Here" id="inputs">
+        </div>
+
+                                                                                                              <!-- MIDDLE SECTION HERE -->
+
+
+         
+          <div class="main_box">
+            <div class="main_child">
+              <h1 id="city">london, united kingdom</h1>
+              <p id="dortime">friday february 23 2024 at 10:37 am </p>
+              <button class="btn">clouds</button>
+              <!-- <i class="fa-solid fa-cloud"></i> -->
+              <img id="weatherIcon" src="" alt="weather icon">
+              <h2 id="temp">278 <sup>*</sup></h2>
+              <p><span class="sp1">Min :277 <sup>*</sup></span> <span class="sp2">  Max :34 <sup>*</sup></span></p>
+            </div>
+
+       </div>
+
+                                                                                                             <!-- BOTTOM SECTION HERE -->
+
+
+        <div class="bottom_box">
+          <div class="b_box">
+           <i class="fa-solid fa-temperature-half"></i>
+           <div class="about">
+            <h4 >feels like</h4>
+           <p id="fl">275 <sup>.</sup></p>
+           </div>
+           
+          </div>
+           <div class="b_box">
+           <i class="fa-solid fa-droplet"></i>
+           <div class="about">
+            <h4 >humadity</h4>
+           <p id="hum">275 <sup>.</sup></p>
+           </div>
+           
+          </div>
+           <div class="b_box">
+            <i class="fa-solid fa-wind"></i>
+           <div class="about">
+            <h4 >wind</h4>
+           <p id="wi">275 <sup>.</sup></p>
+           </div>
+           
+          </div>
+           <div class="b_box">
+           <i class="fa-solid fa-tornado"></i>
+           <div class="about">
+            <h4>pressure</h4>
+           <p id="pre">275 <sup>.</sup></p>
+           </div>
+           
+          </div>
+          
+        </div>
+    
+       
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
